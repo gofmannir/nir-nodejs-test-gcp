@@ -169,7 +169,7 @@ def main():
         elif visionState == "none" or visionState == "done":
             print("Waiting for trigget")
 
-        cv2.imshow("Original", frame)
+        cv2.imshow("Original Image", frame)
 
         key = cv2.waitKey(1)
         if key == 27:
